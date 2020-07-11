@@ -1,3 +1,4 @@
+<%= render "layouts/error_messages" %>
 <%= form_with model: @post, local: true do |form| %>
   <div>
    <%= form.label :title %>
@@ -8,7 +9,6 @@
     <%= form.text_field :content %>
   </div>
   <div>
-    <%# <% binding.pry %>  
      <%= form.submit button_value: "更新" %>
   </div>
 <% end %>
