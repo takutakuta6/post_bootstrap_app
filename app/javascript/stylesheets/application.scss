@@ -1,2 +1,10 @@
-@import "~bootstrap/scss/bootstrap";
-@import "bootstrap";
+// @import "~bootstrap/scss/bootstrap";
+// @import "bootstrap";
+th,
+td {
+  vertical-align: middle !important;
+}
+
+.break-word {
+  word-break: break-word;
+}
